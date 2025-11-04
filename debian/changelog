@@ -2,7 +2,7 @@ edk2-cix (1.0.0-2) main; urgency=medium
 
   * Update edk2-platforms to 2025Q3
 
- -- jfliu <jfliu@debian>  Tue, 04 Nov 2025 15:56:16 +0800
+ -- Jianfeng Liu <liujianfeng1994@gmail.com>  Tue, 04 Nov 2025 15:56:16 +0800
 
 edk2-cix (1.0.0-1) main; urgency=medium
 
