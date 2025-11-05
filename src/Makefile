@@ -59,7 +59,7 @@ Build/%/$(UEFI_TARGET)_GCC5/cix_flash_all.bin: Build/%/$(UEFI_TARGET)_GCC5/Firmw
 	if [[ -d "$$PM" ]]; then \
 		echo "Found custom PM configuration."; \
 		make -C "$$PM" -j$(shell nproc); \
-		mv "$$PM/csu_pm_config.bin" Build/$*/$(UEFI_TARGET)_GCC5/Firmwares/; \
+		mv "$$PM/csupm_bin_config" Build/$*/$(UEFI_TARGET)_GCC5/Firmwares/; \
 	fi
 
 	export CFG="$(shell find edk2*/Platform/ -mindepth 4 -maxdepth 4 -path "*/$*/spi_flash_config_all.json" -type f)" && \
